@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(11, 37, 22);
+    color: aliceblue;
+    text-align: center;
+    font-size: 120%;
+}
+
+form {
+    background-color: rgba(89, 122, 103, 0.7);
+    width: 80%;
+    min-height: 600px;
+    margin:auto;
+    margin-top: 4%;
+    padding: 2%;
+    border-radius: 10px;
+    color: antiquewhite;
+}
+
+input {
+    margin: 1%;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+input[type="text"] {
+    width: 30%;
+    height: 5%;
+}
+
+input[type="number"] {
+    width: 60px;
+    height: 30px;
+}
+
+input[type="submit"] {
+    position: fixed;
+    top: 2%;
+    right: 1%;
+    background-color: red;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    width: 13%;
+    min-width: 80px;
+    height: 6%;
+    min-height: 30px;
+    border-radius: 20px;
+
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: red;
+}

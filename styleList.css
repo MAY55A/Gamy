@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(11, 37, 22);
+    color: aliceblue;
+}
+
+a#l0 {
+    &:hover {
+        background-color: white;
+        color: red;
+    }
+    position: fixed;
+    top: 2%;
+    right: 1%;
+    background-color: red;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    width: 13%;
+    min-width: 80px;
+    height: 6%;
+    min-height: 30px;
+    border-radius: 20px;
+
+}
+
+table {
+    margin-top: 5%;
+    width: 100%;
+    background-color: rgba(89, 122, 103, 0.7);
+    border: 3px solid black;
+    font-size: 130%;
+}
+
+td {
+    text-align: center;
+    color: black;
+    height: 50px;
+    min-width: 110px;
+    padding: 1%;
+}
+
+td a {
+    display: block;
+    font-size: 80%;
+    height: 60%;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5%;
+}
+
+#l1 {
+    background-color: rgb(13, 46, 104);
+}
+
+#l2 {
+    background-color: rgb(8, 77, 8);
+}
+
+#l3 {
+    background-color: rgb(120, 3, 3);
+}
