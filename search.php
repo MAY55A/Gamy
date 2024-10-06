@@ -29,9 +29,9 @@
                 if(isset($_SESSION['user'])) {
                     echo '<a href="mycart.php" class="l1"> My Cart &#128722</a>';
                     echo '<a href="mygames.php" class="l1"> My Games &#127918</a>';
-                    echo '<a href="Logout.php" class="l1 redbt"> Logout</a>';
+                    echo '<a href="logout.php" class="l1 redbt"> Logout</a>';
                 } else {
-                    echo '<a href="Login.php" class="l1"> Login</a>';
+                    echo '<a href="login.php" class="l1"> Login</a>';
                     echo '<a href="signup.php" class="l1 redbt"> Sign Up</a>';
                 }
             ?>

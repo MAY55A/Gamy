@@ -12,7 +12,7 @@
             <?php
                 echo '<a href="mycart.php" class="l1"> My Cart &#128722</a>';
                 echo '<a href="mygames.php" class="l1"> My Games &#127918</a>';
-                echo '<a href="Logout.php" class="l1 redbt"> Logout</a>';
+                echo '<a href="logout.php" class="l1 redbt"> Logout</a>';
             ?>
             <a href="admin.php" id="admin">&#128736</a>
         </nav>
